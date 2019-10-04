@@ -26,3 +26,6 @@ EULA
 # OS
 - Termux ( Cellphones, Android LED, etc )
 - Linux
+
+# Contact
+- mrharoonawan@gmail.com
