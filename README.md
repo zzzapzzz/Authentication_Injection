@@ -12,8 +12,12 @@ EULA
 # Features
 - Extracts login parameters
 - Records response especially 200 or 404
+- Understand all HTTPS responses
 - Aid in performing authentication bypass with database injections in automation
 - Successful injected strings could be use combing sqlmap or sqliv for database digging
+
+# Debuging Requests
+- Edit auth_injection.sh file and remove hash in front of set -x option
 
 # Running
 - chmod u+x *
