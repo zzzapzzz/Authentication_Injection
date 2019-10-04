@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+#set -x
 rm cookiestore.txt
 rm output.txt
 echo -e ""
@@ -27,11 +27,13 @@ echo -e ""
 echo -e "[-] Posting    "
 echo -e "[+] Output file            : output.txt"
 echo -e ""
+
+
 while read query
 do
-    content=$(curl -L -X POST $Host --data "${UParameters}${PParameters}${SParameters}${query}")
-    echo $query
-    echo $content >> output.txt
+content=$(curl --write-out "%{http_code}\n" --silent --output /dev/null -L -X POST $Host --data "${UParameters}${PParameters}${SParameters}${query}")
+ echo $query
+ echo $content >> output.txt
 done < query.txt
 echo -e ""
 echo -e "[-] Finished       "
