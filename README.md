@@ -1,4 +1,4 @@
-# Tool
+# F.A.Q
 Authentication Injection Checker
 
 # License
