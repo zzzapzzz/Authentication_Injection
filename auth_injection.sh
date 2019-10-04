@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -x
+#set -x {Enable this to understand, how request is going and why request is failed}
 rm cookiestore.txt
 rm output.txt
 echo -e ""
