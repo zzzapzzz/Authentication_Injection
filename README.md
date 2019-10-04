@@ -19,8 +19,9 @@ EULA
 # Debuging Requests
 - Edit auth_injection.sh file and remove hash in front of set -x option
 
-# Running
+# Install & Run
 - chmod u+x *
+- ./installer.sh
 - ./interface.sh
 
 # OS
