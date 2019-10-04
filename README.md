@@ -10,6 +10,10 @@ EULA
 - Tool can aid in pentesting when performing authentication bypass using database injections
 - Successful injected strings can be used with sqlmap or sqliv for database digging
 
+# Running
+- chmod u+x *
+- ./interface.sh
+
 # OS
 - Termux ( Cellphones, Android LED, etc )
 - Linux
